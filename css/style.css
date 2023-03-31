@@ -231,11 +231,7 @@ body {
 
 .second-section button {
   width: 100%;
-  background: linear-gradient(
-    180deg,
-    hsl(252, 100%, 67%) 0%,
-    hsl(241, 81%, 54%) 91%
-  );
+  background: #303b59;
   padding: 17px 20px;
   color: #fff;
   border: 0;
@@ -244,10 +240,14 @@ body {
   font-weight: 700;
   border-radius: 25px;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .second-section button {
     width: 100%;
-    background: #303b59;
+    background: linear-gradient(
+      180deg,
+      hsl(252, 100%, 67%) 0%,
+      hsl(241, 81%, 54%) 91%
+    );
     padding: 17px 20px;
     color: #fff;
     border: 0;
@@ -256,5 +256,5 @@ body {
     font-weight: 700;
     border-radius: 25px;
   }
-}
+} */
 /* End Main */
